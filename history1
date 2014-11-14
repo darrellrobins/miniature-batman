@@ -1,0 +1,500 @@
+   25  which xcode-select -p
+   26  gcc
+   27  rvm list
+   28  rvm user 2.1.2
+   29  rvm use 2.1.2
+   30  bundle update
+   31  rvm reinstall 2.1.2
+   32  sudo rvm reinstall 2.1.2
+   33  brew list
+   34  which openssl
+   35  brew reinstall openssl
+   36  which openss
+   37  which openssl
+   38  echo $PATH
+   39  brew doctor
+   40  brew update
+   41  brew doctor
+   42  bundle
+   43  rvm list
+   44  which rvm
+   45  rvm install 2.1.2
+   46  which openssl
+   47  brew --prefix
+   48  brew --prefix openssl
+   49  echo $PATH
+   50  which openssl
+   51  brew help
+   52  brew info link
+   53  brew info openssl
+   54  brew ls
+   55  echo $PATH
+   56  where openssl
+   57  zsh
+   58  which openssl
+   59  brew link openssl
+   60  rvm get head
+   61  rvm cleanup all
+   62  sudo rvm cleanup all
+   63  rvm
+   64  rvm doctor
+   65  rvm list
+   66  echo $PATH
+   67  vim ~/.bash_profile 
+   68  vim ~/.bashrc
+   69  ls
+   70  echo $PATH
+   71  source ~/.bash_profile 
+   72  source ~/.bashrc
+   73  echo $PATH
+   74  exit
+   75  Sites/
+   76  cd Sites/
+   77  cd beerometer/
+   78  vim app/views/beers/new.html.erb 
+   79  git add .
+   80  vim Gemfile
+   81  git add .
+   82  git commit -m 'New beers form'
+   83  gst
+   84  git status
+   85  bundle
+   86  rails g migration
+   87  rails g migration changeAlcoholLevelForBeers
+   88  vim db/migrate/20140730132044_change_alcohol_level_for_beers.rb 
+   89  rake db:migrate
+   90  vim db/migrate/20140730132044_change_alcohol_level_for_beers.rb 
+   91  rake db:migrate
+   92  vim db/migrate/20140730132044_change_alcohol_level_for_beers.rb 
+   93  rake db:migrate
+   94  vim app/views/beers/new.html.erb 
+   95  vim app/views/beers/
+   96  git add .
+   97  git commit -m 'Change new beers form, list beers'
+   98  vim app/views/beers/index.html.erb 
+   99  vim app/assets/stylesheets/application.css 
+  100  vim Gemfile
+  101  vim app/assets/stylesheets/application.css 
+  102  git add .
+  103  bundle
+  104  vim app/assets/stylesheets/reset.css
+  105  vim app/assets/stylesheets/global.css.scss
+  106  mv app/assets/stylesheets/application.css app/assets/stylesheets/application.css.scss
+  107  vim app/assets/stylesheets/application.css.scss 
+  108  vim app/assets/stylesheets/global.css.scss 
+  109  vim app/assets/stylesheets/global.css.scss 
+  110  vim app/cvi
+  111  vim app/views/
+  112  vim app/assets/stylesheets/
+  113  vim app/assets/stylesheets/global.css.scss 
+  114  git add .
+  115  git commit -m 'base styles'
+  116  vim app/controllers/
+  117  git add .
+  118  git commit -m 'clean up controller'
+  119  vim app/views/layouts/application.html.erb 
+  120  git add .
+  121  git commit -m 'navigation'
+  122  vim config/routes.rb 
+  123  git add ,
+  124  git add .
+  125  vim config/application.rb 
+  126  vim config/routes.rb 
+  127  git add .
+  128  git commit --amend
+  129  vim app/assets/stylesheets/
+  130  git add .
+  131  git commit --amend
+  132  vim app/
+  133  vim app/views/
+  134  vim app/assets/stylesheets/application.css.scss 
+  135  vim app/assets/stylesheets/global.css.scss 
+  136  vim app/views/beers/new.html.erb 
+  137  vim app/assets/stylesheets/global.css.scss 
+  138  vim app/views/beers/index.html.erb 
+  139  vim app/views/layouts/application.html.erb 
+  140  grep -r ':w' .
+  141  vim app/assets/stylesheets/beers.css.scss 
+  142  vim app/assets/stylesheets/global.css.scss 
+  143  vim app/views/layouts/application.html.erb 
+  144  vim app/views/beers/index.html.erb 
+  145  vim app/assets/stylesheets/vars.css.scss
+  146  vim app/assets/stylesheets/application.css.scss 
+  147  git add .
+  148  gst
+  149  git status
+  150  git add -A .
+  151  git commit -m 'More styles and markup'
+  152  git commit --amend
+  153  git add 
+  154  gst
+  155  git status
+  156  git status
+  157  vim Gemfile
+  158  bundle
+  159  bundle
+  160  brew install imagemagick
+  161  rails g migration addImageToBeers
+  162  vim db/migrate/
+  163  rake db:migrate
+  164  vim app/models/
+  165  vim app/views/
+  166  graph
+  167  git log --pretty-oneline --graph
+  168  git log --pretty-one-line --graph
+  169  git log --pretty --onelin  --graph
+  170  git log --pretty --oneline  --graph
+  171  git log --pretty --oneline  --graph
+  172  vim ~/.bashrc
+  173  source ~/.bashrc
+  174  graph
+  175  bundle
+  176  vim app/controllers/beers_controller.rb 
+  177  vim app/views/beers/new.html.erb 
+  178  ls
+  179  clear
+  180  cd ~/Desktop/
+  181  ls
+  182  lsc
+  183  ls -lash
+  184  cd ..
+  185  ls -lash
+  186  cd Sites/
+  187  ls
+  188  rails new stack
+  189  rails s
+  190  cl
+  191  clear
+  192  ls
+  193  cd stack/
+  194  ls
+  195  subl .
+  196  ls /Applications/Sublime\ Text\ 2.app/
+  197  ls /Applications/Sublime\ Text\ 2.app/Contents/
+  198  ls /Applications/Sublime\ Text\ 2.app/Contents/Resources/
+  199  ls /Applications/Sublime\ Text\ 2.app/Contents/
+  200  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/
+  201  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl 
+  202  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+  203  ps
+  204  exit
+  205  cd ~/Sites/stack/
+  206  ls
+  207  subl .
+  208  subl 
+  209  ls ~/bin
+  210  ls ~/bin/subl
+  211  touch ~/bin
+  212  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+  213  echo $PATH
+  214  brew
+  215  brew doctor
+  216  brew update
+  217  subl
+  218  source ~/bin
+  219  ls ~/bin
+  220  ls ~/bin
+  221  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin
+  222  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+  223  ls
+  224  ls ~/
+  225  ls --lash ~/bin
+  226  ls -lash ~/bin
+  227  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl/
+  228  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+  229  rm ~/bin
+  230  mkdir ~/bin
+  231  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+  232  subl
+  233  exit
+  234  echo $PATH
+  235  rvm
+  236  rvm doctor
+  237  ps
+  238  brew doctor
+  239  brew doctor
+  240  brew list
+  241  which openssl
+  242  echo $PATH
+  243  which ruby
+  244  rvm list
+  245  rvm install 2.1.2
+  246  brew list
+  247  brew info openssl
+  248  rvm autolibs help
+  249  rvm autolibs
+  250  rvm autolibs status
+  251  rvm autolibs homebrew
+  252  rvm autolibs status
+  253  rvm autolibs read-fail
+  254  rvm autolibs status
+  255  rvm install 2.1.2
+  256  rvm -v
+  257  rvm osx-ssl-certs status all
+  258  rvm osx-ssl-certs status
+  259  echo $PATH
+  260  brew help
+  261  brew upgrade openssl
+  262  which open ssl
+  263  rvm list
+  264  rvm install 2.1.2 --with-openssl-dir=/usr/local
+  265  brew link openssl --fore
+  266  brew link openssl --force
+  267  which openssl
+  268  rvm install 2.1.2
+  269  rvm osx-ssl-certs update /usr/local/etc/openssl/cert.pem
+  270  rvm install 2.1.2
+  271  rvm osx-ssl-certs update all
+  272  rvm install 2.1.2
+  273  rvm reinstall 2.1.2
+  274  rvm list
+  275  echo $PATH
+  276  cd aekfhbslekhb/
+  277  bundle
+  278  ..
+  279  cd ..
+  280  rm -rf aekfhbslekhb/
+  281  cd Sites/
+  282  ls
+  283  cd beerometer/
+  284  bundle
+  285  ls app/models/
+  286  ls app/controllers/
+  287  rails g controller beers index show new edit
+  288  rails g model beer name rating:integer price:float units:float
+  289  rake db:migrate
+  290  rails s
+  291  vim config/routes.rb 
+  292  git add .
+  293  git init
+  294  git add .
+  295  git status
+  296  git commit -m 'initial commit'
+  297  ls
+  298  vim app/controllers/
+  299  vim ~/.zshrc
+  300  zsh
+  301  vim ~/.vimrc
+  302  vim ~/.vimrc
+  303  vim ~/.vimrc
+  304  vim app/cpn
+  305  vim app/controllers/beers_controller.rb 
+  306  vim ~/.vimrc
+  307  git add .
+  308  git commit -m 'controller updates'
+  309  vim config
+  310  git add .
+  311  git commit -m 'RESTful routes for beers resource'
+  312  rails s
+  313  rails s
+  314  rails s
+  315  rails s
+  316  cd ../stack/
+  317  rails s
+  318  cd ~/Sites/stack/
+  319  subl .
+  320  ls ~/bin/
+  321  subl .
+  322  source ~/bin/subl 
+  323  subl .
+  324  rm ~/bin/subl 
+  325  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin
+  326  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+  327  subl
+  328  subl
+  329  source ~/bin/subl
+  330  cd Sites/stack/
+  331  rails g controller stories index show new edit
+  332  vim config/routes.rb 
+  333  rails g model stories title url description vote_id:integer comment_id:integer
+  334  vim db/migrate/20140808142032_create_stories.rb 
+  335  rake db:migrate
+  336  vim app/models/
+  337  vim app/models/stories.rb 
+  338  vim app/controllers/
+  339  git init
+  340  git add .
+  341  git commit -m 'first commit '
+  342  vim app/models/
+  343  vim config
+  344  vim app/controllers/
+  345  vim app/models/
+  346  rails d model stories
+  347  rails g model story title url description
+  348  rake db:migrate
+  349  vim db/migrate/20140808144022_create_stories.rb 
+  350  ls db/migrate/
+  351  rake db:migrate
+  352  rake db:rollback
+  353  rake db:migrate
+  354  rake db:rollback
+  355  rake db:rollback
+  356  ls db/schema.rb 
+  357  vim db/schema.rb 
+  358  rake db:rollback
+  359  rake db:migrate
+  360  gst
+  361  git status
+  362  class Stories < ActiveRecord::Base
+  363    validates :title, presence: true
+  364    validates :url, presence: true
+  365    validates_format_of :uri, :with => URI.regexp
+  366  end
+  367  git reset HEAD
+  368  gst
+  369  git status
+  370  git checkout .
+  371  git status
+  372  rails g model stories title url description vote_id:integer comment_id:integer
+  373  rails g model stories title url description --force
+  374  rake db:rollback
+  375  rm db/migrate/20140808144022_create_stories.rb 
+  376  rake db:rollback
+  377  rails d model stories
+  378  rake db:migrate
+  379  ls db/migrate/
+  380  rails g model story title url description
+  381  rake db:migrate
+  382  vim app/views/
+  383  vim app/views/
+  384  vim app/views/layouts/application.html.erb 
+  385  vim app/views/stories/new.html.erb 
+  386  vim gem
+  387  vim Gemfile
+  388  bundle
+  389  rails g model comment story_id:integer body:text
+  390  rails g model vote story_id:integer 
+  391  rails d model vote
+  392  rails g model vote story_id:integer ip_address
+  393  rails g migration addVotesCountToStories
+  394  vim db/migrate/
+  395  rake db:migrate
+  396  vim app/
+  397  vim app/models/vote.rb 
+  398  vim Gemfile
+  399  bundle
+  400  bundle update steer
+  401  rails g steer:layout
+  402  rails -v
+  403  ruby -v
+  404  rails -v
+  405  gem 
+  406  gem help steer
+  407  gem help -v
+  408  gem -v
+  409  gem server
+  410  gem list
+  411  vim Gemfile
+  412  gem
+  413  vim Gemfile
+  414  bundle
+  415  gem list 
+  416  gem list steer --all
+  417  vim Gemfile
+  418  nundle
+  419  bundle
+  420  bundle
+  421  ls ~/.ssh/
+  422  ssh-keygen -t rsa -C "tim@andthats.it"
+  423  eval "$(ssh-agent -s)"
+  424  ssh-add ~/.ssh/id_rsa
+  425  pbcopy < ~/.ssh/id_rsa.pub 
+  426  bundle
+  427  rails g steer:layout
+  428  ls
+  429  vim app/
+  430  ls
+  431  vim app/models/
+  432  cd Sites/
+  433  cd stack/
+  434  ls
+  435  subl .
+  436  echo $PATH
+  437  subl
+  438  export PATH="$PATH:~/bin"
+  439  echo $PATH
+  440  export PATH="$PATH:/Users/Steer/bin"
+  441  subl
+  442  export PATH="/usr/local/bin:/Users/Steer/.rvm/gems/ruby-2.1.2/bin:/Users/Steer/.rvm/gems/ruby-2.1.2@global/bin:/Users/Steer/.rvm/rubies/ruby-2.1.2/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Steer/.rvm/bin:/Users/Steer/bin"
+  443  subl .
+  444  clear
+  445  rails s
+  446  rails s
+  447  php -v
+  448  /Users/Steer/Downloads/fewd-master/projects/cv 
+  449  cd /Users/Steer/Downloads/fewd-master/projects/cv/index.html 
+  450  php -S localhost:8000
+  451  php -S localhost:8000 -t /Users/Steer/Downloads/fewd-master/projects/cv 
+  452  pwd
+  453  ls
+  454  cd app/controllers/
+  455  ls -lrta
+  456  vi application_controller.rb 
+  457  cd ..
+  458  pwd
+  459  cd ..
+  460  rails generate scaffold
+  461  rails generate scaffold get home
+  462  ls -lrta app/controllers/
+  463  ls -lrta app/views
+  464  ls -lrta app/views/gets
+  465  run: bin/rake db:migrate RAILS_ENV=development
+  466  pwd
+  467  ls bin
+  468   bin/rake db:migrate RAILS_ENV=development
+  469  rails generate scaffold post
+  470   bin/rake db:migrate RAILS_ENV=development
+  471  pwd
+  472  cd config
+  473  ls -lrta
+  474  grep 3000 *
+  475  grep 3000 */*
+  476  more application.rb 
+  477  more environment.rb
+  478  pwd
+  479  cd ..
+  480  ls -lrta
+  481  cd log
+  482  ls -lrta
+  483  vi development.log 
+  484  pwd
+  485  cd ../app/views/
+  486  ls -rlrta
+  487  cd gets
+  488  ls -lrta
+  489  pwd
+  490  cd ../../
+  491  ls -ltra
+  492  pwd
+  493  cd ..
+  494  pwd
+  495  cd ..
+  496  rails new stack
+  497  history
+  498  rails generate scaffold
+  499  pwd
+  500  ls
+  501  pwd
+  502  rails g controller users new edit show 
+  503  rails d controller users new edit show 
+  504  rails g controller user new edit show 
+  505  bundle
+  506  rake routes
+  507  rake routes
+  508  rake routes
+  509  rake routes
+  510  pwd
+  511  cd app/views/
+  512  ls -lrta
+  513  mv user users
+  514  cd users
+  515  ls r-lta
+  516  rails g controller 
+  517  rails g controller sessions
+  518  pwd
+  519  cd ../../..
+  520  pwd
+  521  git init .
+  522  git add .
+  523  git commit -am "initial"
+  524  history 1000 > history1
