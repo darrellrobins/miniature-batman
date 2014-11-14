@@ -1,14 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
   <title>Onboard</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<div class="container">
+  <header class="row">
+    <h1 class="two columns">
+      <%= link_to rooms_path do %>
+        <%= image_tag "logo.png" %>
+      <% end %>
+    </h1>
+    <div class="three columns">
+    <%= simple_form_for :search, method: :get do |search| %>
+      <%= search.input :query, label: false %>
+    <% end %>
+    </div>
+
+    <nav class="seven columns">
+      <%# link_to "Dashboard", "#" %>
+      <%# link_to "Add a room", "#" %>
+      <%# link_to "Orders", "#" %>
+      <%# link_to "Log out", "#" %>
+
+      <%= link_to "Sign up", new_user_path %>
+      <% if session[:user_id] %>
+        <%= link_to "Sign out", session_path(@session), method: :delete, data: { confirm: 'Are you sure?' } %>
+      <% else %>
+        <%= link_to "Sign in",new_session_path %>
+      <% end %>
+    </nav>
+  </header>
+
+  <% if ! flash.empty? %>
+   <% flash.each do | key, value | %>
+  <div class="flash <%=key%>"><%= value %><hr /></div>
+    <% end %>
+  <% end %>
+  </div>
+  <article class="row">
+    <%= yield %>
+  </article>
+
+  <footer>
+    <p>&copy; <%= Date.today.year %> Onboard Ltd</p>
+  </footer>
+</div>
 
 </body>
 </html>

@@ -42,6 +42,10 @@ gem 'steer', github: 'tmcdb/steer-rb'
 
 gem 'simple_form'
 
+gem 'stripe'
+
+gem 'geocoder'
+
 group :development, :test do
 	gem 'sqlite3'
 end

@@ -1,0 +1,20 @@
+<section>
+	<fieldset>
+<%= simple_form_for @room do |form| %>
+  <%= form.input :price_in_pence %>
+  <%= form.input :name %>
+  <%= form.input :description %>
+  <%= form.input :availability %>
+  <%= form.input :address %>
+  <%= form.input :latitude %>
+  <%= form.input :longitude %>
+  <%= form.input :phone_no %>
+  <%= form.input :no_of_rooms %>
+  <%= form.input :max_guests %>
+  <%= form.input :pets %>
+  <%= form.input :user_id %>
+  <%= form.button :submit %>
+
+<% end %>
+</fieldset>
+</section>

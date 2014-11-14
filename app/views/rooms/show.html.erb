@@ -1,0 +1,22 @@
+<section>
+	<h2><%= @room.name %></h2>
+	<div class="address">
+		<p><%= @room.address %></p>
+	</div>
+	<div class="image">
+	</div>
+	<div class="map" data-lat="<%=@room.latitude%>" data-lng="<%=@room.longitude%>">
+		<%# Geocoder adds automatically %>
+	</div>
+	<p><span class='fieldlabel'>Room rate:</span>
+		<span class="fieldValue"><%= number_to_currency @room.price_in_pence %></span>
+	</p>
+	<div class="description"><%= simple_format @room.description %></div>
+
+	<p>Ask <%= mail_to @room.user.email, @room.user.name %> about this room</p>
+	<div class="actions">
+		<p><%= link_to "Book this room", room_path(@room), method: :post %></p>
+		<p><%= link_to "Edit", edit_room_path(@room) %></p>
+		<p><%= link_to "Delete", room_path(@room), method: :delete, data: { confirm: 'Are you sure?' } %></p>
+	</div>
+</section>

@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  price_in_pence: 1
+  name: MyString
+  description: MyText
+  availability: 2014-11-14
+  address: MyString
+  latitude: 1.5
+  longitude: 1.5
+  phone_no: MyString
+  no_of_rooms: 1
+  max_guests: 1
+  pets: false
+  user_id: 1
+
+two:
+  price_in_pence: 1
+  name: MyString
+  description: MyText
+  availability: 2014-11-14
+  address: MyString
+  latitude: 1.5
+  longitude: 1.5
+  phone_no: MyString
+  no_of_rooms: 1
+  max_guests: 1
+  pets: false
+  user_id: 1

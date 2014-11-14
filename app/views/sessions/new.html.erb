@@ -1,0 +1,6 @@
+<%= simple_form_for :session, url: session_path, method: :post do | form | %>
+	<%= form.input :name %>
+	<%= form.input :password %>
+
+	<%= form.button :submit, "Log in" %>
+<% end %>
