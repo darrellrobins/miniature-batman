@@ -15,8 +15,15 @@
 
 	<p>Ask <%= mail_to @room.user.email, @room.user.name %> about this room</p>
 	<div class="actions">
-		<p><%= link_to "Book this room", room_path(@room), method: :post %></p>
-		<p><%= link_to "Edit", edit_room_path(@room) %></p>
-		<p><%= link_to "Delete", room_path(@room), method: :delete, data: { confirm: 'Are you sure?' } %></p>
+		<% if current_user? %>
+			<% if current_user.id == @room.user.id %>
+				<p><%= link_to "Edit", edit_user_room_path(current_user, @room) %></p>
+				<p><%= link_to "Delete", room_path(@room), method: :delete, data: { confirm: 'Are you sure?' } %></p>
+			<% else %>
+				<p><%= link_to "Book this room", new_room_order_path(@room) %></p>
+			<% end %>
+		<% else %>
+			<p> <%= link_to "Sign up to book this room", new_user_path, class: :button %> </p
+		<% end %>
 	</div>
 </section>

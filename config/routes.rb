@@ -1,10 +1,16 @@
 Rails.application.routes.draw do
   root 'rooms#index'
-  resources :rooms
-
-  resources :users, except: [:index]
+  resources :rooms do # only [:index, :show ]
+    resources :orders, only: [:new, :create]
+  end
+  resources :users, except: [:index] do
+    resources :rooms, only: [:new, :create, :edit, :update]
+    resources :orders, only: [:index]
+  end
 
   resource :session, only: [:new, :create, :destroy]
+
+  resources :orders, except: [:show]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

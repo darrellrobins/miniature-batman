@@ -1,6 +1,8 @@
 class RoomsController < ApplicationController
 
   before_action :set_locale
+  before_action :find_room, only: [:edit,:show,:update]
+  before_action :require_user, except: [:index,:show]
  
   def index
   	if params[:search] and params[:search][:query]
@@ -16,7 +18,6 @@ class RoomsController < ApplicationController
   end
 
   def show
-  	@room = Room.find(params[:id])
   end
 
   def new
@@ -25,6 +26,7 @@ class RoomsController < ApplicationController
 
   def create
   	@room = Room.new(room_params)
+  	@room.user = current_user
   	if @room.save
   		flash[:success] = "Room created"
   		redirect_to rooms_path
@@ -35,6 +37,29 @@ class RoomsController < ApplicationController
   end
 
   def edit
+  	@room = Room.find(params[:id])
+  	@user = User.find(current_user.id)
+  	if ! @room
+  		flash[:errors] = "No room"
+  	end
+  end
+
+  def update
+    if @room
+      if @room.update(room_params)
+        flash[:success] = @room.name + " updated"
+      else
+        flash[:error] = @room.name + " could not be updated"
+        @room.errors.full_messages.each do | message |
+          flash[:error] << "\n" + message
+        end
+        render :edit
+       end
+    else
+      flash[:warning] = @room.id + " could not be found, not updated"
+      render :edit
+    end
+    redirect_to rooms_path
   end
 
   def destroy
@@ -68,7 +93,11 @@ class RoomsController < ApplicationController
   		:no_of_rooms, 
   		:max_guests, 
   		:pets, 
-  		:user_id)
+  		:address)
+  end
+
+  def find_room
+  	@room = Room.find(params[:id])
   end
 
   def set_locale
